@@ -1,27 +1,34 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
+  - name: The Adaptive Mind
+    identifier: 42795c6b
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
-  - name: Experience
-    url: experience/
+  - name: Research
+    identifier: "23e44956"
+    url: /research
     weight: 20
-  - name: Projects
-    url: projects/
+  - name: Teaching
+    identifier: "52278757"
+    url: /teaching
     weight: 30
-  - name: Courses
-    url: courses/
+  - name: Publications
+    identifier: 06cac7e6
+    url: /projects
     weight: 40
+  - name: Talks
+    identifier: 6197e3b6
+    url: /talks
+    weight: 50
+  - name: Hobbies
+    identifier: 0384a8b3
+    url: /hobbies
+    weight: 60
+  - name: About the Author
+    identifier: 3f4346d9
+    url: /about
+    weight: 70
